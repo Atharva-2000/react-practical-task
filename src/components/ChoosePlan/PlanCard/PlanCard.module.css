@@ -1,0 +1,45 @@
+.plan_card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 36px;
+    padding-right: 36px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex-grow: 1;
+    transition-property: padding;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.plan_type{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.plan_price{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.plan_subtitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.plan_features{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.plan_features_item{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.plan_features_text{
+    font-size: 16px;
+    font-weight: 400;
+}

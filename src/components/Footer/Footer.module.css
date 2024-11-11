@@ -1,0 +1,116 @@
+.footer{
+    background-color: #043873;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 24px;
+}
+
+.footer_top_section{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
+.footer_top_section_column{
+    max-width: 208px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    color: white;
+    line-height: 24px;
+}
+
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: #2E4E73;
+}
+
+.divider_small_screen{
+    height: 1px;
+    width: 100%;
+    background-color: #2E4E73;
+    display: none;
+}
+
+.footer_bottom_section{
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    padding-top: 24px;
+    /* border-top: 1px solid #2E4E73; */
+    color: white;
+}
+
+.footer_bottom_section_left{
+    display: flex;
+    align-items: center;
+    gap: 3.4rem;
+}
+
+.footer_bottom_section_right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.language_selection{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .footer{
+        padding-left: 24px;
+        padding-right: 24px;   
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer_bottom_section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+     }
+
+     .footer_bottom_section_left{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .divider{
+        display: none;
+    }
+
+    .divider_small_screen{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width : 321px) {
+   .footer_top_section{
+       width: 75%;
+       flex-direction: column;
+       align-items: start;
+       gap: 3rem;
+   }
+
+}
+
+@media screen and (max-width: 320px) {
+    .footer_top_section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2.5rem;
+    }
+
+}

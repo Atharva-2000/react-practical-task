@@ -1,0 +1,11 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.logo p{
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}

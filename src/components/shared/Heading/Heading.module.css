@@ -1,0 +1,25 @@
+.headingText{
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+.underline_icon{
+   position: absolute;
+   right: 0;
+   top: 74%;
+   width: 208px;
+   z-index: -1;
+   overflow: visible;
+}
+
+@media screen and (max-width: 768px) {
+    .headingText{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1152px) and (min-width : 769px) {
+    .headingText{
+        font-size: 3rem;
+    }
+}
