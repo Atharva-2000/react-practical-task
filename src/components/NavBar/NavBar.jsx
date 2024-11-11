@@ -4,6 +4,8 @@ import Logo from '../Logo/Logo'
 import Button from '../shared/Button/Button'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import rightArrowIcon from "../../assets/icons/right-arrow-icon.svg"
+import carrentDownIcon from "../../assets/icons/carret-down-icon.svg"
 
 const NavBar = () => {
 
@@ -21,25 +23,25 @@ const NavBar = () => {
                 <div className={styles.navbar_menu_dropdowns_container}>
                     <div className={styles.dropdown}>
                         <p>Products</p>
-                        <img src='/assets/icons/carret-down-icon.svg' alt='' />
+                        <img src={carrentDownIcon} alt='' />
                     </div>
                     <div className={styles.dropdown}>
                         <p>Solutions</p>
-                        <img src='/assets/icons/carret-down-icon.svg' alt='' />
+                        <img src={carrentDownIcon} alt='' />
                     </div>
                     <div className={styles.dropdown}>
                         <p>Resources</p>
-                        <img src='/assets/icons/carret-down-icon.svg' alt='' />
+                        <img src={carrentDownIcon} alt='' />
                     </div>
                     <div className={styles.dropdown}>
                         <p>Pricing</p>
-                        <img src='/assets/icons/carret-down-icon.svg' alt=''/>
+                        <img src={carrentDownIcon} alt=''/>
                     </div>
                 </div>
                 <div className={styles.nav_right_section}>
                     <div className={styles.buttons_container}>
                         <Button bg="#FFE492" c="#043873" text="Login" />
-                        <Button text="Try Whitepace free" iconPath={"/assets/icons/right-arrow-icon.svg"} />
+                        <Button text="Try Whitepace free" iconPath={rightArrowIcon} />
                     </div>
                     <div className={styles.menu_icon_wrapper} onClick={toggleNavbarVisibility}>
                         {
@@ -56,23 +58,23 @@ const NavBar = () => {
         <div className={styles.vertical_nav} style={{display : showNavBar ? "flex" : "none"}}>
             <div className={styles.dropdown}>
                 <p>Products</p>
-                <img src='/assets/icons/carret-down-icon.svg' alt='' />
+                <img src={carrentDownIcon} alt='' />
             </div>
             <div className={styles.dropdown}>
                 <p>Solutions</p>
-                <img src='/assets/icons/carret-down-icon.svg' alt='' />
+                <img src={carrentDownIcon} alt='' />
             </div>
             <div className={styles.dropdown}>
                 <p>Resources</p>
-                <img src='/assets/icons/carret-down-icon.svg' alt='' />
+                <img src={carrentDownIcon} alt='' />
             </div>
             <div className={styles.dropdown}>
                 <p>Pricing</p>
-                <img src='/assets/icons/carret-down-icon.svg' alt=''/>
+                <img src={carrentDownIcon} alt=''/>
             </div>
             <div className={styles.vertical_nav_buttons}>
                 <Button bg="#FFE492" c="#043873" text="Login" />
-                <Button text="Try Whitepace free" iconPath={"/assets/icons/right-arrow-icon.svg"} />
+                <Button text="Try Whitepace free" iconPath={rightArrowIcon} />
             </div>
         </div>
     </div>

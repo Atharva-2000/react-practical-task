@@ -3,14 +3,7 @@ import styles from "./ChoosePlan.module.css"
 import Heading from '../shared/Heading/Heading'
 import { planDetails } from './PlanData'
 import PlanCard from './PlanCard/PlanCard'
-
-/*
-const PLAN_TYPES = {
-    FREE : "Free",
-    PERSONAL : "Personal",
-    ORGANIZATION : "Organization"
-}
-*/
+import headingBottomYellow from "../../assets/icons/heading-bottom-yellow.svg"
 
 const ChoosePlan = () => {
 
@@ -18,7 +11,7 @@ const ChoosePlan = () => {
     
   return (
     <div className={styles.choose_plan_container}>
-        <Heading text='Choose Your Plan' underlineIconPath={'/assets/icons/heading-bottom-yellow.svg'} />
+        <Heading text='Choose Your Plan' underlineIconPath={headingBottomYellow} />
         <p className={styles.subtext}>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
         <div style={{width: "100%"}}>
            <div className={styles.plan_cards_container}>
