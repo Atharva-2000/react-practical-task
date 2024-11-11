@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-practical-task/static/css/main.125f165d.css",
-    "main.js": "/react-practical-task/static/js/main.fa25fbd0.js",
+    "main.css": "/react-practical-task/static/css/main.dda016cf.css",
+    "main.js": "/react-practical-task/static/js/main.1305923b.js",
     "static/js/453.09bbec0b.chunk.js": "/react-practical-task/static/js/453.09bbec0b.chunk.js",
     "static/media/top-section-image.svg": "/react-practical-task/static/media/top-section-image.695a9427447ae37b923202883bb2e721.svg",
     "static/media/heading-bottom-blue.svg": "/react-practical-task/static/media/heading-bottom-blue.cdcbf3a3351f1198365ab6536db4ae3e.svg",
@@ -23,12 +23,12 @@
     "static/media/windows-logo.svg": "/react-practical-task/static/media/windows-logo.e487141d5b21a19e1f554d33431c0f79.svg",
     "static/media/right-arrow-icon.svg": "/react-practical-task/static/media/right-arrow-icon.a8d884a85f68dc1fa475a79e8cea7da0.svg",
     "static/media/carret-down-icon.svg": "/react-practical-task/static/media/carret-down-icon.f9b14500effcfc1c33e4337ed26c4b42.svg",
-    "main.125f165d.css.map": "/react-practical-task/static/css/main.125f165d.css.map",
-    "main.fa25fbd0.js.map": "/react-practical-task/static/js/main.fa25fbd0.js.map",
+    "main.dda016cf.css.map": "/react-practical-task/static/css/main.dda016cf.css.map",
+    "main.1305923b.js.map": "/react-practical-task/static/js/main.1305923b.js.map",
     "453.09bbec0b.chunk.js.map": "/react-practical-task/static/js/453.09bbec0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.125f165d.css",
-    "static/js/main.fa25fbd0.js"
+    "static/css/main.dda016cf.css",
+    "static/js/main.1305923b.js"
   ]
 }
