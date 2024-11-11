@@ -35,7 +35,7 @@ const LandingPage = () => {
                     <div className={styles.top_section_content_left}>
                         <Heading text='Get More Done with whitepace' c='white' />
                         <p style={{color: "white", fontSize: "18px", fontWeight: 400, marginBottom: "16px"}}>Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
-                        <Button text={"Try Whitepace free"} iconPath={rightArrowIcon} />
+                        <Button text={isSmallScreen ? "Try Taskey Free"  : "Try Whitepace free"} iconPath={rightArrowIcon} />
                     </div>
                 </Grid2>
                 <Grid2 size={{xxs: 12, sm: 6}}>
