@@ -34,7 +34,7 @@ const LandingPage = () => {
                 <Grid2 size={{xxs: 12, sm: 6}}>
                     <div className={styles.top_section_content_left}>
                         <Heading text='Get More Done with whitepace' c='white' />
-                        <p style={{color: "white", fontSize: "18px", fontWeight: 400, marginBottom: "16px"}}>Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
+                        <p className={styles.subtext} style={{ marginBottom: "16px"}}>Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
                         <Button text={isSmallScreen ? "Try Taskey Free"  : "Try Whitepace free"} iconPath={rightArrowIcon} />
                     </div>
                 </Grid2>
@@ -50,7 +50,7 @@ const LandingPage = () => {
         <div className={styles.your_work_section}>
             <div className={styles.your_work_section_content}>
                 <Heading c="white" text="Your work, everywhere you are" underlineIconPath={ isSmallScreen ? null : headingBottomBlue} />
-                <p style={{color: "white", fontSize: "18px", fontWeight: 400, marginBottom: "16px"}}>Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
+                <p className={styles.subtext} style={{ marginBottom: "16px"}}>Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
                 <Button text={"Try Taskey"} iconPath={rightArrowIcon} />
             </div>
             <img src={yourWorkBackground} alt='your-work-bg' className={styles.your_work_background_image}/>
@@ -70,11 +70,11 @@ const LandingPage = () => {
             <div className={styles.bottom_section_content}>
                 <Heading text='Try Whitepace today' c='white'/>
                 <div style={{marginBottom: "10px"}}>
-                    <p style={{color: "white", fontSize: "18px",fontWeight: 400 }}>Get started for free.</p>
-                    <p style={{color: "white", fontSize: "18px",fontWeight: 400, marginTop: "6px" }}>Add your whole team as your needs grow.</p>
+                    <p className={styles.subtext}>Get started for free.</p>
+                    <p className={styles.subtext} style={{ marginTop: "6px" }}>Add your whole team as your needs grow.</p>
                 </div>
                 <Button text={"Try Taskey free"} iconPath={rightArrowIcon} />
-                <p style={{color: "white", fontSize: "18px",fontWeight: 400 }}>On a big team? Contact sales</p>
+                <p className={styles.subtext}>On a big team? Contact sales</p>
                 <div style={{display: "flex", alignItems: "center", gap: "32px",  marginTop: "10px"}}>
                     <img src={appleIcon} alt='apple' height={"46px"} />
                     <img src={windowsIcon} alt='windows' height={"46px"} />

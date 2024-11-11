@@ -33,6 +33,13 @@
     position: relative;
 }
 
+
+.subtext{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .your_work_section{
     background-color: #043873;
     padding-top: 92px;

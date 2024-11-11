@@ -85,7 +85,7 @@
     .footer_top_section_column{
         align-items: start;
         max-width: 95%;
-        gap: 1rem;
+        gap: 14px;
     }
 
     .footer_bottom_section{
@@ -121,7 +121,7 @@
     .footer_top_section_column{
         align-items: center;
         max-width: 100%;
-        gap: 1rem;
+        gap: 14px;
     }
 
     .footer_bottom_section{
